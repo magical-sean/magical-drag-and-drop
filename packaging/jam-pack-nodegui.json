@@ -60,10 +60,10 @@
     "uninstallerIcon": "$pruneStep_trashDirectory/packaging/windows/magical.ico"
   },
   "dmg" : {
-    "applicationIcon": "$pruneStep_trashDirectory/packaging/macos/nodeguiapp.icns",
-    "applicationTitle": "MagicalDragAndDrop",
+    "applicationIcon": "$pruneStep_trashDirectory/packaging/macos/magical.icns",
+    "applicationTitle": "magical-drag-and-drop",
     "nsHumanReadableCopyright": "Copyright 2025 Magical",
-    "cfBundleIdentifier": "com.magical.MagicalDragAndDrop",
+    "cfBundleIdentifier": "com.magical.magical-drag-and-drop",
     "prePack": []
   }
 
