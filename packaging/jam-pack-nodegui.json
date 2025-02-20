@@ -25,7 +25,7 @@
   },
   "quietQode": {},
   "zip": {
-    "platforms": ["linux", "macos", "windows"],
+    "platforms": ["macos", "windows"],
     "skip": false
   },
   "debian": {
@@ -53,20 +53,18 @@
   },
   "nsis": {
     "skip": false,
-    "description": "A NodeGui application",
+    "description": "A local server to view pdf files",
     "detailColors": "3db54a 000000",
-    "appTitle": "nodeguiapp",
-    "installerIcon": "$pruneStep_trashDirectory/packaging/windows/nodeguiapp.ico",
-    "uninstallerIcon": "$pruneStep_trashDirectory/packaging/windows/nodeguiapp.ico"
+    "appTitle": "MagicalDragAndDrop",
+    "installerIcon": "$pruneStep_trashDirectory/packaging/windows/magical.ico",
+    "uninstallerIcon": "$pruneStep_trashDirectory/packaging/windows/magical.ico"
   },
   "dmg" : {
-    "applicationIcon": "$pruneStep_trashDirectory/packaging/macos/nodeguiapp.icns",
-    "applicationTitle": "nodeguiapp",
-    "nsHumanReadableCopyright": "Copyright 2023 Someone",
-    "cfBundleIdentifier": "com.someapp.someapp",
-    "prePack": [
-      "mv $dmgStep_dmgResourcesDirectory/nodeguiapp $dmgStep_dmgMacOSDirectory/"
-    ]
+    "applicationIcon": "$pruneStep_trashDirectory/packaging/macos/magical.icns",
+    "applicationTitle": "MagicalDragAndDrop",
+    "nsHumanReadableCopyright": "Copyright 2023 Magical",
+    "cfBundleIdentifier": "com.magical.magical-drag-and-drop",
+    "prePack": []
   }
 
 }
