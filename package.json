@@ -1,0 +1,34 @@
+{
+  "name": "magical-drag-and-drop",
+  "version": "1.0.0",
+  "author": "Sean Connelley",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magical-sean/magical-drag-and-drop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magical-sean/magical-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/magical-sean/magical-drag-and-drop#readme",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "npm run build-code && npm run build-bundle",
+    "build-code": "tsc",
+    "build-bundle": "esbuild build/main.js --sourcemap --bundle --outfile=dist/main.cjs --platform=node --format=cjs --external:@nodegui/nodegui \"--external:nodegui-plugin-*\"",
+    "clean": "rimraf build dist tmp-jam-pack-nodegui",
+    "package": "jam-pack-nodegui --config packaging/jam-pack-nodegui.json",
+    "start": "qode dist/main.cjs"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.71.0",
+    "file-type": "^18.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "esbuild": "^0.18.4",
+    "jam-pack-nodegui": "^0.18.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}
