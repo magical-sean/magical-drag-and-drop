@@ -3,7 +3,8 @@
     "gitFromCwd": true
   },
   "build": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "applicationName": "MagicalDragAndDrop"
   },
   "prune": {
     "skip": false,
@@ -55,7 +56,6 @@
     "skip": false,
     "description": "A local server to view pdf files",
     "detailColors": "3db54a 000000",
-    "applicationName": "MagicalDragAndDrop",
     "appTitle": "MagicalDragAndDrop",
     "installerIcon": "$pruneStep_trashDirectory/packaging/windows/magical.ico",
     "uninstallerIcon": "$pruneStep_trashDirectory/packaging/windows/magical.ico",
@@ -63,7 +63,6 @@
     "companyName": "Magical"
   },
   "dmg" : {
-    "applicationName": "MagicalDragAndDrop",
     "applicationIcon": "$pruneStep_trashDirectory/packaging/macos/magical.icns",
     "applicationTitle": "MagicalDragAndDrop",
     "nsHumanReadableCopyright": "Copyright 2025 Magical",
