@@ -22,7 +22,10 @@
     ]
   },
   "addLauncher": {
-    "jsEntryPoint": "dist/main.cjs"
+    "jsEntryPoint": "dist/main.cjs",
+    "windowsIcon": "windows/magical.ico",
+    "windowsCompanyName": "Magical",
+    "windowsFileDescription": "A local server to view pdf files"
   },
   "quietQode": {},
   "zip": {
