@@ -25,7 +25,8 @@
     "jsEntryPoint": "dist/main.cjs",
     "windowsIcon": "windows/magical_small.ico",
     "windowsCompanyName": "Magical",
-    "windowsFileDescription": "A local server to view pdf files"
+    "windowsFileDescription": "A local server to view pdf files",
+    "windowsLegalCopyright": "Copyright 2025 Magical"
   },
   "quietQode": {},
   "zip": {
